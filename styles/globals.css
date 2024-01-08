@@ -3,10 +3,13 @@
   --black: black;
   --white: white;
   --darkgrey: #3c4043; 
-  --palegrey: rgb(243, 243, 243);
+  --palegrey: rgb(241, 241, 241);
+  --mediumgrey: rgb(113, 118, 123);
   --darkergrey: rgb(47, 51, 54); 
+  --buttonborder: rgb(83, 100, 113);
   --blue: #1d9bf0;
   --darkblue: #1b8ad3;
+  --blueblack: #030f17;
 }
 
 html {
