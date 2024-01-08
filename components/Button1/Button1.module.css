@@ -6,11 +6,12 @@
 .button1 {
     background-color: var(--white);
     font-family: 'Google Sans', Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 40px;
+    font-weight: 38px;
     width: 300px;
     height: 40px;
     border-radius: 60px;
     font-size: 14px;
+    letter-spacing: 0.2px;
     cursor: pointer;
     color: var(--darkgrey);
     border: none; 

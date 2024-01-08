@@ -43,7 +43,9 @@
 
 .logoimage {
 height: auto;
-width: 700px;
+width: 810px;
+margin-top: 30px;
+margin-left: 30px;
 
 }
 
@@ -52,7 +54,28 @@ width: 700px;
   flex-direction: column;
   flex: 45%;
   justify-content: flex-start;
-  margin-left: 60px;
+  margin-left: 75px;
+  margin-top: 115px;
+  color: var(--white);
+}
+
+.linecontainer {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  min-width: 0px;
+  justify-content: center;
+  width: 300px;
+  font-family: 'Chirp Regular', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.line {
+  background-color: var(--darkergrey);
+  height: 1px;
+  margin-left: 4px;
+  margin-right: 4px;
+  flex: 1;
 }
 
 /*
