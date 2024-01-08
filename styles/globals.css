@@ -1,10 +1,12 @@
 :root {
   --max-width: 1100px;
-  --background: black;
-  --assetcolour: white;
+  --black: black;
+  --white: white;
+  --darkgrey: #3c4043; 
+  --palegrey: rgb(244, 244, 244);
 }
 
 html {
-  background-color: var(--background);
+  background-color: var(--black);
 }
 

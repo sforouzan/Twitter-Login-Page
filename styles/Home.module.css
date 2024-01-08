@@ -14,16 +14,19 @@
 }
 
 .texth1, .texth3 {
-  color: var(--assetcolour);
+  color: var(--white);
   font-family: 'Chirp Extended Heavy', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .texth1 {
   font-size: 64px;
+  margin-top: 80px;
+  letter-spacing: -1px;
 }
 
 .texth3 {
   font-size: 31px;
+  margin-top: 10px;
 }
 
 .largecontainer {
@@ -33,7 +36,7 @@
 
 .logocontainer {
   display: flex;
-  flex: 50%;
+  flex: 55%;
   align-items: center;
   justify-content: center;
 }
@@ -47,8 +50,9 @@ width: 700px;
 .assetscontainer {
   display: flex;
   flex-direction: column;
-  flex: 50%;
+  flex: 45%;
   justify-content: flex-start;
+  margin-left: 60px;
 }
 
 /*

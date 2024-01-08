@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Google Sans';
+    src: url('/fonts/GoogleSans.ttf');
+  }
+
+.button1 {
+    background-color: var(--white);
+    font-family: 'Google Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 40px;
+    width: 300px;
+    height: 40px;
+    border-radius: 60px;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--darkgrey);
+    border: none; 
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    background-color: var(--palegrey);
+}
