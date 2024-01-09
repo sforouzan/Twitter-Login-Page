@@ -31,7 +31,7 @@
 
 .largecontainer {
   display: flex;
-  height: 90vh;
+  margin-top: 20x;
 }
 
 .logocontainer {
@@ -44,9 +44,9 @@
 .logoimage {
   height: auto;
   width: 90%;
-  margin-top: 30px;
-  margin-left: 30px;
-
+  margin-left: 35px;
+  margin-right: 35px;
+  max-height: 380px;
 }
 
 .assetscontainer {
@@ -54,7 +54,8 @@
   flex-direction: column;
   flex: 45%;
   justify-content: flex-start;
-  margin-left: 75px;
+  margin-left: 36px;
+  margin-right: 36px;
   color: var(--white);
   max-width: 760px;
   min-width: 437px;
@@ -108,25 +109,56 @@
 }
 
 
-/*
+
 .main {
-  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-*/
+
 
 
 
 /* Tablet and Smaller Desktop */
-@media (max-width: 1060px) {
+@media screen and (max-width: 1060px) {
   .largecontainer{
-    flex: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 45vw;
+    max-width: 600px;
+    margin: 20px auto;
   }
-  .logocontainer {
-    flex: 100%;
+
+  .main {
+    justify-content: flex-start;
+    max-height: 90vh;
   }
+
   .logoimage {
-    width: 90%;
+    height: 3rem;
+    margin-left: 8px;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .texth1 {
+    font-size: 38px;
+  }
+
+  .texth3 {
+    font-size: 22px;
+  }
+  .assetscontainer {
+    margin: 36px;
+    position: relative;
+    top: -20px;
+
+  }
+  .main {
+    overflow: hidden;
+    max-height: 90vh;
+  }
+
+}
 
