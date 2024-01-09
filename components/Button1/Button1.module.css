@@ -8,7 +8,7 @@
     font-family: 'Google Sans', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 38px;
     width: 300px;
-    height: 40px;
+    min-height: 38px;
     border-radius: 60px;
     font-size: 14px;
     letter-spacing: 0.2px;

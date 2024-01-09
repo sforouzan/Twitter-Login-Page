@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Chirp Regular';
+    src: url('/fonts/Chirp-Regular.80fda27a.woff2');
+  }
+  
+
+.footer {
+    font-family: 'Chirp Regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: var(--mediumgrey);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer > ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .underlinehover:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }

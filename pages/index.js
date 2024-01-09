@@ -5,6 +5,7 @@ import Button1 from '@/components/Button1'
 import Button2 from '@/components/Button2'
 import Button3 from '@/components/Button3'
 import Button4 from '@/components/Button4'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -42,29 +43,7 @@ export default function Home() {
         <Button4 />
           </div>
         </div> 
-        <footer className={styles.footer}>
-        <ul>
-          <li>About</li>
-          <li>Download the X app</li>
-          <li>Help Center</li>
-          <li>Terms of Service</li>
-          <li>Privacy Policy</li>
-          <li>Cookie Policy</li>
-          <li>Accessibility</li>
-          <li>Ads info</li>
-          <li>Blog</li>
-          <li>Status</li>
-          <li>Careers</li>
-          <li>Brand Resources</li>
-          <li>Advertising</li>
-          <li>Marketing</li>
-          <li>X for Business</li>
-          <li>Developers</li>
-          <li>Directory</li>
-          <li>Settings</li>
-          <li>© 2024 X Corp.</li>
-        </ul>
-      </footer>
+      <Footer />
       </main>
     </>
   )

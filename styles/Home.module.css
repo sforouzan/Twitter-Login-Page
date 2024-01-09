@@ -20,7 +20,7 @@
 
 .texth1 {
   font-size: 64px;
-  margin-top: 80px;
+  margin-top: 10%;
   letter-spacing: -1px;
 }
 
@@ -42,10 +42,10 @@
 }
 
 .logoimage {
-height: auto;
-width: 810px;
-margin-top: 30px;
-margin-left: 30px;
+  height: auto;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 30px;
 
 }
 
@@ -55,8 +55,9 @@ margin-left: 30px;
   flex: 45%;
   justify-content: flex-start;
   margin-left: 75px;
-  margin-top: 115px;
   color: var(--white);
+  max-width: 760px;
+  min-width: 437px;
 }
 
 .linecontainer {
@@ -113,21 +114,7 @@ margin-left: 30px;
 }
 */
 
-.footer {
-  font-family: 'Chirp Regular', Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 13px;
-  color: var(--mediumgrey);
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.footer > ul {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
 
 /* Tablet and Smaller Desktop */
 @media (max-width: 1060px) {
