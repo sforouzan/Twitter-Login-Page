@@ -108,16 +108,12 @@
   margin-bottom: 30px;
 }
 
-
-
 .main {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
-
 
 
 /* Tablet and Smaller Desktop */
